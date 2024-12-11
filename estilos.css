@@ -14,9 +14,14 @@
 .TarjetaRoja{
     background-color:rgb(213, 0, 50);
 }
+.TarjetaAzul{
+    background-color:rgb(0, 68, 180);
+
+}
+
 
 .contenedor-imagen{
-    width: 70%;
+    width: 90%;
 }
 
 .imagen{
