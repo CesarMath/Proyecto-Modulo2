@@ -5,8 +5,14 @@
 
 .contenedor{
     display: flex;
-    background-color: red;
     margin: 50px;
+}
+
+.TarjetaVerde{
+    background-color:rgb(30, 57, 50);
+}
+.TarjetaRoja{
+    background-color:rgb(213, 0, 50);
 }
 
 .contenedor-imagen{
