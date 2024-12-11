@@ -36,6 +36,13 @@
 .imagen{
     width: 100%;
 }
+.margenes-tex{
+    margin-top: 50px;
+}
+
+.margen-lineas{
+    margin-top: 10px;
+}
 
 .contenedor-texto{
     width: 100%;
@@ -45,3 +52,4 @@
     align-content: center;
     justify-content: center;
 }
+
