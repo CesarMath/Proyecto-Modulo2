@@ -1,7 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    color: white;
+    
 }
 
 section{
@@ -10,7 +10,22 @@ section{
     flex-direction: row;
     width: 1300px;
     height: auto;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    color: white;
+}
+
+.T-vertical{
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 68.5%;
+    height: 730px;
+}
+.contenedor-texto-vertical{
+    text-align: center;
+    font-size: 20px;
+    font-family: SoDo Sans,Helvetica,Arial,sans-serif;    
 }
 
 .margenes{
@@ -27,6 +42,14 @@ section{
     background-color:rgb(0, 68, 180);
 
 }
+.Tarjeta-Rosa{
+    background-color:#f6bfd9;
+    color: #d50032;
+}
+.Tarjeta-Azul{
+    background-color:#98cde4;
+    color: #003f52;
+}
 
 .bordes-boton{
     background: none;
@@ -36,6 +59,7 @@ section{
     line-height: 1;
     font-size: 16px;
     cursor: pointer;
+    color: white;
 }
 .bordes-boton:hover {
     background-color:rgb(229, 1, 73);
