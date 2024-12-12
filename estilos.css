@@ -42,10 +42,12 @@ section{
 .Tarjeta-Rosa{
     background-color:#f6bfd9;
     color: #d50032;
+    border-right:15px solid white;
 }
 .Tarjeta-Azul{
     background-color:#98cde4;
     color: #003f52;
+    border-left:15px solid white;
 }
 
 .bordes-boton{
