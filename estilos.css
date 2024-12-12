@@ -21,24 +21,43 @@ section{
 }
 
 .caja-nav{
+    border-bottom: 1px solid gainsboro;
+}
+.nav{
     display: flex;
     font-family: SoDo Sans, Helvetica, Arial, sans-serif;
-    justify-content: center;
-    border-bottom: 1px solid gainsboro;
+    justify-content: space-between;
+    max-width: 85%;
+    margin: 0 auto;
+    align-items: center;
+}
+.caja-nav .nav .menu-izquierdo .nav-item .boton-nav{
+    text-transform: uppercase;
+    letter-spacing: .3em;
+}
+
+.caja-nav .nav .menu-izquierdo .nav-item:hover{
+    border-bottom: 5px solid grey;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
 }
 
 .boton-nav{
-    margin-right: 70px;
+    letter-spacing: .1em;
     background: none;
     border: 0px;
     font-size: 14px;
-    padding: 20px;
     cursor: pointer;
 }
-
-.lista-nav{
-    list-style: none;
+.boton-nav:hover{
+    color: rgb(4, 102, 4);
 }
+
 
 #b-ingresar{
     border: 1px solid black;
