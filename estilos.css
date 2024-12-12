@@ -33,6 +33,7 @@ section{
     border: 0px;
     font-size: 14px;
     padding: 20px;
+    cursor: pointer;
 }
 
 .lista-nav{
