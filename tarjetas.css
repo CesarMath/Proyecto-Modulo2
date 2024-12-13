@@ -4,11 +4,14 @@
     font-family: SoDo Sans,Helvetica,Arial,sans-serif;
 }
 
+/*Contenedor general */
+
 .contenedor-tarjetas{
     display: flex;
     justify-content: center;
 }
 
+/*Primeras tarjetas de colores verticales*/
 .tarjetas-colores{
     display: flex;
     flex-wrap: wrap;
@@ -19,7 +22,7 @@
     flex-wrap: wrap;
     margin-bottom: 25px;
 }
-
+/*Imagen y texto dentro de cada tarjeta vertical*/
 .contenedor-texto{
     width: 50%;
     text-align: center;
@@ -35,6 +38,7 @@
     width: 100%;
 }
 
+/*Colores de las tarjetas principales verticales*/
 .tarjeta-verde{
     background-color:rgb(30, 57, 50);
 }
@@ -45,3 +49,27 @@
     background-color:rgb(213, 0, 50);
 }
 
+/*Botones de tarjetas*/
+.bordes-boton{
+    background: none;
+    border:1px solid white;
+    border-radius: 50px;
+    padding: 7px 16px;
+    line-height: 1;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+}
+.bordes-boton:hover {
+    background-color:rgb(229, 1, 73);
+}
+.margenes-tex{
+    margin-top: 50px;
+}
+.margen-lineas{
+    margin-top: 10px;
+}
+.links{
+    color: inherit;
+    text-decoration: none;
+}
