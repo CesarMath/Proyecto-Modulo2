@@ -11,7 +11,7 @@
     justify-content: center;
 }
 
-/*Primeras tarjetas de colores verticales*/
+/*Primeras tarjetas de colores horizontales*/
 .tarjetas-colores{
     display: flex;
     flex-wrap: wrap;
@@ -22,7 +22,7 @@
     flex-wrap: wrap;
     margin-bottom: 25px;
 }
-/*Imagen y texto dentro de cada tarjeta vertical*/
+/*Imagen y texto dentro de cada tarjeta horizontal*/
 .contenedor-texto{
     width: 50%;
     text-align: center;
@@ -37,8 +37,14 @@
 .imagen{
     width: 100%;
 }
+.margenes-tex{
+    margin-top: 50px;
+}
+.margen-lineas{
+    margin-top: 10px;
+}
 
-/*Colores de las tarjetas principales verticales*/
+/*Colores de las tarjetas principales horizontales*/
 .tarjeta-verde{
     background-color:rgb(30, 57, 50);
 }
@@ -49,27 +55,51 @@
     background-color:rgb(213, 0, 50);
 }
 
-/*Botones de tarjetas*/
-.bordes-boton{
+/*Botones de tarjetas generales*/
+.btn{
     background: none;
-    border:1px solid white;
     border-radius: 50px;
     padding: 7px 16px;
     line-height: 1;
     font-size: 16px;
     cursor: pointer;
+}
+.btn-horizontal{
+    border:1px solid white;
     color: white;
 }
-.bordes-boton:hover {
+.btn-horizontal:hover {
     background-color:rgb(229, 1, 73);
 }
-.margenes-tex{
-    margin-top: 50px;
-}
-.margen-lineas{
-    margin-top: 10px;
-}
-.links{
+.links{ 
+/*Elimina la linea inferior del borde y 
+el estilo de letra azulada*/
     color: inherit;
     text-decoration: none;
+}
+
+/*Tarjetas VERTICALES*/
+.tarjeta-rosa{
+    background-color:#f6bfd9;
+    color: #d50032;
+    border-right:15px solid white;
+}
+.tarjeta-azul-vertical{
+    background-color:#98cde4;
+    color: #003f52;
+    border-left:15px solid white;
+}
+.contenedor-texto-vertical{
+    text-align: center;
+    font-size: 20px;
+    padding: 33PX 0PX 30PX 0PX;
+}
+
+.color-rosa{
+    border:1px solid #d50032;
+    color: #d50032;
+}
+.color-azul{
+    border:1px solid #003f52;
+    color: #003f52;
 }
