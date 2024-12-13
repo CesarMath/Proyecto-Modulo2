@@ -4,8 +4,66 @@
     font-family: SoDo Sans,Helvetica,Arial,sans-serif;
 }
 
-/*--------Contenedor general--------*/
+/*--------------Menú de Navegación--------------*/
+.caja-nav{
+    border-bottom: 1px solid gainsboro;
+    padding: 15px;
+}
+.nav{
+    display: flex;
+    font-family: SoDo Sans, Helvetica, Arial, sans-serif;
+    justify-content: space-between;
+    max-width: 85%;
+    margin: 0 auto;
+    align-items: center;
+}
+.caja-nav .nav .menu-izquierdo .nav-item .boton-nav{
+    text-transform: uppercase;
+    letter-spacing: .15em;
+}
+.caja-nav .nav .menu-izquierdo .nav-logo{
+    width: 80%;
+}
 
+.caja-nav .nav .menu-izquierdo .nav-item:hover{
+    border-bottom: 5px solid grey;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+}
+
+.boton-nav{
+    letter-spacing: .1em;
+    background: none;
+    border: 0px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.boton-nav:hover{
+    color: rgb(4, 102, 4);
+}
+
+
+
+#b-ingresar{
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 7px 16px;
+    line-height: 1;
+}
+
+#b-unete{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 7px 16px;
+    line-height: 1;
+}
+/*--------Contenedor general--------*/
 .contenedor-tarjetas{
     display: flex;
     flex-direction: column;
