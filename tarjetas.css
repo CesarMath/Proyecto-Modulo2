@@ -6,14 +6,14 @@
 
 /*--------------Menú de Navegación--------------*/
 .caja-nav{
-    border-bottom: 1px solid gainsboro;
+    width: 100%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .2);
     padding: 15px;
 }
 .nav{
     display: flex;
-    font-family: SoDo Sans, Helvetica, Arial, sans-serif;
     justify-content: space-between;
-    max-width: 85%;
+    max-width: 1230px;
     margin: 0 auto;
     align-items: center;
 }
@@ -47,8 +47,6 @@
     color: rgb(4, 102, 4);
 }
 
-
-
 #b-ingresar{
     border: 1px solid black;
     border-radius: 50px;
@@ -63,6 +61,8 @@
     padding: 7px 16px;
     line-height: 1;
 }
+
+
 /*--------Contenedor general--------*/
 .contenedor-tarjetas{
     display: flex;
