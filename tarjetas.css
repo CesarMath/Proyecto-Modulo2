@@ -4,14 +4,14 @@
     font-family: SoDo Sans,Helvetica,Arial,sans-serif;
 }
 
-/*Contenedor general */
+/*--------Contenedor general--------*/
 
 .contenedor-tarjetas{
     display: flex;
     justify-content: center;
 }
 
-/*Primeras tarjetas de colores horizontales*/
+/*-----Primeras tarjetas de colores horizontales-----*/
 .tarjetas-colores{
     display: flex;
     flex-wrap: wrap;
@@ -55,7 +55,7 @@
     background-color:rgb(213, 0, 50);
 }
 
-/*Botones de tarjetas generales*/
+/*--------Botones de tarjetas generales--------*/
 .btn{
     background: none;
     border-radius: 50px;
@@ -78,7 +78,11 @@ el estilo de letra azulada*/
     text-decoration: none;
 }
 
-/*Tarjetas VERTICALES*/
+/*-----------Tarjetas VERTICALES----------------*/
+.contenedor-tarj-verticales{
+    display: flex;
+}
+    /*Contenido tarjetas verticales*/
 .tarjeta-rosa{
     background-color:#f6bfd9;
     color: #d50032;
@@ -94,12 +98,12 @@ el estilo de letra azulada*/
     font-size: 20px;
     padding: 33PX 0PX 30PX 0PX;
 }
-
 .color-rosa{
     border:1px solid #d50032;
-    color: #d50032;
 }
 .color-azul{
     border:1px solid #003f52;
-    color: #003f52;
+}
+.contenedor-texto-vertical button{
+    color: inherit;
 }
