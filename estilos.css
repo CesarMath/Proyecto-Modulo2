@@ -189,14 +189,22 @@ section{
 .caja-aviso .texto-aviso{
     padding-top: 8px;
 }
-
+.caja-boton-aviso{
+    padding: 10px;
+}
 .boton-aviso{
     background-color: black;
     color: white;
     border-radius: 50px;
     padding: 7px 16px;
     line-height: 1;
+    font-weight: 700;
+    text-decoration: none;
 }
 .links{
+    color: inherit;
     text-decoration: none;
+}
+.caja-aviso a{
+    border-bottom: 2px solid black;
 }
