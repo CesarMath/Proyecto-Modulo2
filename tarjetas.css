@@ -8,7 +8,9 @@
 
 .contenedor-tarjetas{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 /*-----Primeras tarjetas de colores horizontales-----*/
@@ -106,4 +108,37 @@ el estilo de letra azulada*/
 }
 .contenedor-texto-vertical button{
     color: inherit;
+}
+
+/*---------Aviso de cookies------------*/
+.contenedor-caja-cookies{
+    display: flex;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    padding: 15px;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .58);
+}
+.caja-aviso a{
+    border-bottom: 2px solid black;
+}
+.aviso{
+    font-weight: 700;
+    color: black;
+    padding-top: 8px;
+}
+.caja-aviso div{
+    padding-top: 8px;
+}
+.caja-boton-aviso{
+    padding: 10px;
+}
+.caja-boton-aviso a{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
 }
