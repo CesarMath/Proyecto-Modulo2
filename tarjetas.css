@@ -34,6 +34,7 @@
     letter-spacing: .15em;
 }
 .menu-izquierdo .nav-item:hover{
+
     border-bottom: 5px solid grey;
 }
 .nav ul{
@@ -162,6 +163,8 @@ el estilo de letra azulada*/
 .contenedor-texto-vertical button{
     color: inherit;
 }
+
+
 /*-------------FOOTER DE CONTACTO-----------*/
 .footer{
     display: flex;
