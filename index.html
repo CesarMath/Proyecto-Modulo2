@@ -3,226 +3,224 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage | Stafarbucks</title>
+    <title>Tarjetas</title>
     <link rel="shortcut icon" href="https://www.starbucks.com.mx/static/images/logo.svg" type="imagen/x-icon">
     <script src="https://kit.fontawesome.com/7f0e95ac92.js" crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="tarjetas.css">
 </head>
 
 <body>
-    <!--Menú-->
-    <header class="caja-nav">
-        <nav class="nav">
-            <ul class="menu-izquierdo">
-                <li>
-                    <img src="https://www.starbucks.com.mx/static/images/logo.svg" 
-                    class="nav-logo" alt="logostar">
-                </li>
-                <li class="nav-item">
-                    <button class="boton-nav"> 
-                        <b>Menu</b> 
-                    </button> 
-                </li> 
+    <main class="contenedor-tarjetas">
+        <!--Menú de Navegación-->
+        <header class="caja-nav">
+            <nav class="nav">
+                <ul class="menu-izquierdo">
+                    <li>
+                        <img src="https://www.starbucks.com.mx/static/images/logo.svg" 
+                        class="nav-logo" alt="logostar">
+                    </li>
+                    <li class="nav-item">
+                        <button class="boton-nav"> 
+                            <b>Menu</b> 
+                        </button> 
+                    </li> 
+    
+                    <li class="nav-item">
+                        <button class="boton-nav"> 
+                            <b>rewards</b> 
+                        </button> 
+                    </li>
+                </ul>
+    
+                <ul class="menu-derecho">
+                    <li class="nav-item">
+                        <button class="boton-nav"> 
+                            <i class="fa-solid fa-location-dot"></i>
+                            <b>Localizar Tienda</b> 
+                        </button>
+                    </li>
+    
+                    <li class="nav-item">
+                        <button id="b-ingresar" class="boton-nav"> 
+                            <b>Ingresar</b> 
+                        </button>
+                    </li>
+    
+                    <li class="nav-item">
+                        <button id="b-unete" class="boton-nav"> 
+                            <b>Únete</b> 
+                        </button>
+                    </li>
+                </ul>
+            </nav>
 
-                <li class="nav-item">
-                    <button class="boton-nav"> 
-                        <b>rewards</b> 
-                    </button> 
-                </li>
-            </ul>
+        </header>
 
-            <ul class="menu-derecho">
-                <li class="nav-item">
-                    <button class="boton-nav"> 
-                        <i class="fa-solid fa-location-dot"></i>
-                        <b>Localizar Tienda</b> 
-                    </button>
-                </li>
+        <!--TARJETAS HORIZONTALES DE COLORES-->
+        <div class="tarjetas-colores">
 
-                <li class="nav-item">
-                    <button id="b-ingresar" class="boton-nav"> 
-                        <b>Ingresar</b> 
-                    </button>
-                </li>
-
-                <li class="nav-item">
-                    <button id="b-unete" class="boton-nav"> 
-                        <b>Únete</b> 
-                    </button>
-                </li>
-            </ul>
-
-        </nav>
-    </header>
-
-    <!--Tarjetas-->
-    <section id="TarjetasHorizontales" >
-        <!-- TARJETA 1-->
-        <section id="Tarjeta1" class="TarjetaVerde">
-            
-            <div class="contenedor-imagen">
-                <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2F2024-10_SB_Latte.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max" 
-                class="imagen" alt="Imagen café verde1">
+            <!--Tarjeta 1-->
+            <div class="tarjeta-verde tarjeta">
+                <div class="contenedor-imagen">
+                    <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2F2024-10_SB_Latte.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max" 
+                    class="imagen" alt="Imagen café verde1">
+                </div>
+    
+                <div class="contenedor-texto">
+                    <h2>STARBUCKS LATTE POR TI</h2>
+                    <p class="margenes-tex">Por nuestro amor a café, a nuestros partners y a</p>
+                    <p>nuestros clientes.</p>
+                    <p class="margen-lineas">¡Estamos felices de verte todos los días!</p>
+                </div>
             </div>
 
-            <div class="contenedor-texto">
-                <h2>STARBUCKS LATTE POR TI</h2>
-                <p class="margenes-tex">Por nuestro amor a café, a nuestros partners y a</p>
-                <p>nuestros clientes.</p>
-                <p class="margen-lineas">¡Estamos felices de verte todos los días!</p>
-            </div>
-        </section>
-
-        <!-- TARJETA 2-->
-        <section id="Tarjeta2" class="TarjetaAzul margenes">
-
-            <div class="contenedor-texto">
-                <h2 > CELEBREMOS CON LOS FAVORITOS</h2>
-                <h2 class="margen-lineas">DE LA TEMPORADA</h2> 
-                <p class="margenes-tex">¡Disfruta esta temporada con el regreso de Cranberry</p>
-                <p class="margen-lineas">Mocho Blanco acompañados de Toffe Nut latte, Red Velvet</p> 
-                <p class="margen-lineas">Latte, Hazlnut Caramel latte y Holidat Cinnamon</p>   
+            <!--Tarjeta 2-->        
+            <div class="tarjeta-azul tarjeta">
+                <div class="contenedor-texto">
+                    <h2 > CELEBREMOS CON LOS FAVORITOS</h2>
+                    <h2 class="margen-lineas">DE LA TEMPORADA</h2> 
+                    <p class="margenes-tex">¡Disfruta esta temporada con el regreso de Cranberry</p>
+                    <p class="margen-lineas">Mocho Blanco acompañados de Toffe Nut latte, Red Velvet</p> 
+                    <p class="margen-lineas">Latte, Hazlnut Caramel latte y Holidat Cinnamon</p>   
+                </div>
+    
+                <div class="contenedor-imagen">
+                    <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2FHOLIDAY_2024-Spooky.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max" 
+                    class="imagen" alt="Imagen2 ">
+                </div>
             </div>
 
-            <div class="contenedor-imagen">
-                <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2FHOLIDAY_2024-Spooky.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max" 
-                class="imagen" alt="Imagen2 ">
-            </div>
-        </section>
+            <!--Tarjeta 3-->
+            <div class="tarjeta-roja tarjeta">
+                <div class="contenedor-imagen">
+                    <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2FMerch.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max" 
+                    class="imagen" alt="Imagen2">
+                </div>
+    
+                <div class="contenedor-texto">
+                    <h2 > <b> EL CAFÉ PERFECTO </b> </h2>
+                    <h2 class="margen-lineas">PARA ESTA TEMPORADA</h2> 
+                    <p class="margenes-tex">Una taza de café preparada con chrismast Blend es la excusa</p>
+                    <p class="margen-lineas">  perfecta para disfrutar con tus seres queridos. </p> 
+                    <p class="margenes-tex">#StarbuskLatte</p>   
+                </div>
 
-        <!-- TARJETA 3-->    
-        <section id="Tarjeta3" class="TarjetaRoja margenes">
-            
-            <div class="contenedor-imagen">
-                <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2FMerch.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max" 
-                class="imagen" alt="Imagen2">
-            </div>
-
-            <div class="contenedor-texto">
-                <h2 > <b> EL CAFÉ PERFECTO </b> </h2>
-                <h2 class="margen-lineas">PARA ESTA TEMPORADA</h2> 
-                <p class="margenes-tex">Una taza de café preparada con chrismast Blend es la excusa</p>
-                <p class="margen-lineas">  perfecta para disfrutar con tus seres queridos. </p> 
-                <p class="margenes-tex">#StarbuskLatte</p>   
-            </div>
-        </section>
-
-        <!-- TARJETA 4-->
-        <section id="Tarjeta4" class="TarjetaVerde margenes">
-
-            <div class="contenedor-texto">
-                <h2 > RECOMPENSAS EN</h2>
-                <h2 class="margen-lineas">TU BEBIDA FAVORITA</h2> 
-                <p class="margenes-tex"> Sé parte de Starbucks Rewards y obtén más café gratis,</p>
-                <p class="margen-lineas">promociones exclusivas, accesos a productos</p> 
-                <p class="margen-lineas">antes que nadie y más.</p>   
             </div>
 
-            <div class="contenedor-imagen">
-                <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2Fstarbucks_rewards.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max" 
-                class="imagen" alt="Imagen2 ">
+            <!--Tarjeta 4-->
+            <div class="tarjeta-verde tarjeta">
+                <div class="contenedor-texto">
+                    <h2 > RECOMPENSAS EN</h2>
+                    <h2 class="margen-lineas">TU BEBIDA FAVORITA</h2> 
+                    <p class="margenes-tex"> Sé parte de Starbucks Rewards y obtén más café gratis,</p>
+                    <p class="margen-lineas">promociones exclusivas, accesos a productos</p> 
+                    <p class="margen-lineas">antes que nadie y más.</p>   
+                </div>
+    
+                <div class="contenedor-imagen">
+                    <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2Fstarbucks_rewards.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max" 
+                    class="imagen" alt="Imagen2 ">
+                </div>
             </div>
-        </section>
 
-        <!-- TARJETA 5-->    
-        <section id="Tarjeta5" class="TarjetaRoja margenes">
-            
-            <div class="contenedor-imagen">
-                <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2F2024-10_HOLIDAY_2024_Apple%20(1).png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max" 
-                class="imagen" alt="Imagen2">
-            </div>
-
-            <div class="contenedor-texto">
-                <h2 > TODO Y TODOS POR EL PLANETA</h2>
-                <p class="margenes-tex">Trae tu vaso o termo favorito y obtén $8 de descuento</p> 
-                <p class="margenes-lineas">en tu bebida</p>
-                <button class="bordes-boton margenes-tex"> 
-                    <a class="links" href="https://www.starbucks.com.mx/articulo/todo-y-todos-por-el-planeta-0" target="_blank"><b>Conoce más</b></a>
-                </button>
-            </div>
-        </section>
-
-        <!-- TARJETA vertical 1,2-->    
-        <section id="Tarjeta6" class="margenes">
-            
-            <div class="Tarjeta-Rosa contenedor-imagen">
-                <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2FNoticias.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max" 
-                class="imagen" alt="NoticiasStarbucks">
-
-                <div class="contenedor-texto-vertical">
-                    <p>Consulta los eventos más</p>
-                    <p class="margen-lineas">recientes</p>
-                    <button class="bordes-boton-vertical margenes-tex color-rosa"> 
-                        <a class="links" href="https://www.starbucks.com.mx/seccion/boletines" target="_blank"><b>Aquí</b></a>
+            <!--Tarjeta 5-->
+            <div class="tarjeta-roja tarjeta">
+                <div class="contenedor-imagen">
+                    <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2F2024-10_HOLIDAY_2024_Apple%20(1).png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max" 
+                    class="imagen" alt="Imagen2">
+                </div>
+    
+                <div class="contenedor-texto">
+                    <h2 > TODO Y TODOS POR EL PLANETA</h2>
+                    <p class="margenes-tex">Trae tu vaso o termo favorito y obtén $8 de descuento</p> 
+                    <p class="margenes-lineas">en tu bebida</p>
+                    <button class="btn btn-horizontal margenes-tex"> 
+                        <a class="links" href="https://www.starbucks.com.mx/articulo/todo-y-todos-por-el-planeta-0" target="_blank"><b>Conoce más</b></a>
                     </button>
                 </div>
             </div>
 
-            <div class="Tarjeta-Azul contenedor-imagen">
-                <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2FTC.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max" 
-                class="imagen" alt="PromoStarbucks">
+            <!--Tarjetas verticales 1 y 2-->
+            <div class="contenedor-tarj-verticales">
 
-                <div class="contenedor-texto-vertical">
-                    <p>Terminos y </p>
-                    <p class="margen-lineas">condiciones</p>
-                    <button class="bordes-boton-vertical margenes-tex color-azul"> 
-                        <a class="links" href="https://www.starbucks.com.mx/seccion/terminos-y-condiciones" target="_blank">
-                            <b>Ver más</b> 
-                        </a> 
-                    </button>
+                <div class="tarjeta-rosa contenedor-imagen">
+                    <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2FNoticias.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max" 
+                    class="imagen" alt="NoticiasStarbucks">
+    
+                    <div class="contenedor-texto-vertical">
+                        <p>Consulta los eventos más</p>
+                        <p class="margen-lineas">recientes</p>
+                        <button class="btn margenes-tex color-rosa"> 
+                            <a class="links" href="https://www.starbucks.com.mx/seccion/boletines" target="_blank"><b>Aquí</b></a>
+                        </button>
+                    </div>
+                </div>
+    
+                <div class="tarjeta-azul-vertical contenedor-imagen">
+                    <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2FTC.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max" 
+                    class="imagen" alt="PromoStarbucks">
+    
+                    <div class="contenedor-texto-vertical">
+                        <p>Terminos y </p>
+                        <p class="margen-lineas">condiciones</p>
+                        <button class="btn margenes-tex color-azul"> 
+                            <a class="links" href="https://www.starbucks.com.mx/seccion/terminos-y-condiciones" target="_blank">
+                                <b>Ver más</b> 
+                            </a> 
+                        </button>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <!--FOOTER de CONTACTO-->
+        <footer class="footer">
+            <div class="footer-contacto">
+                <div class="footer-contacto-info1">
+                    <p>Sobre nosotros</p>
+                    <p><a href="">Trabaja con nosotros</a></p>
+                    <p><a href="">Historias Starbucks</a></p>
+                </div>
+    
+                <div class="footer-contacto-info1">
+                    <p>Atencion al cliente</p>
+                    <p><a href="">Contáctanos</a></p>
+                    <p><a href="">Facturas elecrónicas</a></p>
+                    <p><a href="">Formas de comprar</a></p>
                 </div>
             </div>
-
-        </section>
-
-    </section>
-
-    <!--Footer-->
-    <footer class="footer">
-        <div class="footer-contacto">
-            <div class="footer-contacto-info1">
-                <p>Sobre nosotros</p>
-                <p><a href="">Trabaja con nosotros</a></p>
-                <p><a href="">Historias Starbucks</a></p>
+    
+            <div class="logos">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
             </div>
 
-            <div class="footer-contacto-info1">
-                <p>Atencion al cliente</p>
-                <p><a href="">Contáctanos</a></p>
-                <p><a href="">Facturas elecrónicas</a></p>
-                <p><a href="">Formas de comprar</a></p>
+
+        </footer>
+
+
+        <!--Avios de Cookies-->
+        <div class="contenedor-caja-cookies">
+
+            <div class="caja-aviso">
+                <p class="aviso">Este sitio usa cookies.</p>
+                <div>
+                    <span >Al navegar en nuestro sitio aceptas que usemos cookies para </span>
+                    <a class="links" href="https://www.starbucks.com.mx/articulo/declaracion-privacidad" target="_blank">personalizar tu experiencia</a> 
+                    <span >según la Declaración de Privacidad.</span>
+                </div>                
             </div>
-        </div>
-
-        <div class="logos">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-square-instagram"></i>
-            <i class="fa-brands fa-x-twitter"></i>
-            <i class="fa-brands fa-youtube"></i>
-        </div>
-    </footer>
-
-    <!--Aviso Cookies-->
-    <div class="contenedor-caja-footer">
-        <div class="caja-aviso">
-
-            <p class="aviso">Este sitio usa cookies.</p>
-            <div class="texto-aviso">
-                <span >Al navegar en nuestro sitio aceptas que usemos cookies para </span>
-                <a class="links" href="https://www.starbucks.com.mx/articulo/declaracion-privacidad" target="_blank">personalizar tu experiencia</a> 
-                <span >según la Declaración de Privacidad.</span>
-            </div>                
-        </div>
-
-        <div class="caja-boton-aviso">
-            <a href="" class="boton-aviso"> Acepto </a>
-        </div>
-
-    </div>
     
+            <div class="caja-boton-aviso">
+                <a href="" class="btn"> Acepto </a>
+            </div>
     
-
+        </div>
+    </main>
     
 </body>
 </html>
