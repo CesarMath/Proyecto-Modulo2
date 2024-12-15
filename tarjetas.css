@@ -170,38 +170,36 @@ el estilo de letra azulada*/
     display: flex;
     width: 100%;
     height: 100%;
-    flex-direction: column;
+    flex-wrap: wrap;
     margin-top: 20px;
     box-shadow: 0 1px 8px rgba(0, 0, 0, .2);
-    
-    
 }
 
 .footer .footer-contacto{
+    width: 100%;
     padding: 30px 0px 60px 20px;
     display: flex;
-    justify-content: start;
     gap: 50px;
 }
 .footer-contacto-info1 p{
     padding: 10px;
 }
-.footer .logos{
+
+.footer .aviso-priv{
+    width: 80%;
     display: flex;
-    flex-wrap: wrap;
     border-top: 1px solid gainsboro;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
     padding-top: 22px;
-    
 }   
+.logos{
+    gap: 30px;
+}
 
 .logos i{
     font-size: 27px;
 }
 
-.texto-logos{
+.aviso-priv p{
     color: black;
     opacity: 30%;
 }
