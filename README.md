@@ -14,5 +14,6 @@ Cualqueir duda o aclaración pueden contactarne a:
 Link de otras paginas elaboradas en el curso:
 -  https://cesarmath.github.io/Proyecto-Final/index.html
 -  https://cesarmath.github.io/Proyecto-Starbaacks/
+-  https://cesarmath.github.io/Proyecto-Modulo2/
 
 César 'Diablo de los números' Alejándrez &copy; 2024 
