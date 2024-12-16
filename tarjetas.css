@@ -219,7 +219,10 @@ el estilo de letra azulada*/
     font-size: 33px;
     padding-right: 20px;
 }
-
+.logos i:hover{
+    transition: all 0.2s ease;
+    transform:translate(0px, -2px)
+}
 .contenedor-aviso p{
     color: black;
     opacity: 30%;
