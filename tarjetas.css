@@ -172,17 +172,32 @@ el estilo de letra azulada*/
     height: 100%;
     margin-top: 20px;
     box-shadow: 0 -3px 3px rgba(0, 0, 0, .1);
+    justify-content: center;
+}
+.contenedor-contacto{
+    width: 1300px;
 }
 
-.footer .footer-contacto{
+.footer-contacto{
     display: flex;
-    padding: 30px 0px 40px 20px;
+    padding: 30px 0px 70px 70px;
     gap: 50px;
 }
-.footer-contacto-info1 p{
+.footer-contacto-info1 p {
     padding: 10px;
 }
+.footer-contacto-info1 p a{
+    opacity: 50%;
+}
+.footer-contacto-info1 p a:hover{
+    opacity: 100%;
+}
+.grosor{
+    font-size: 19px;
+    font-weight: 520;
+}
 
+/*-------------FOOTER de REDES SOCIALES-----------*/
 .footer-aviso{
     display: flex;
     width: 100%;
